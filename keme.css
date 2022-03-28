@@ -1,0 +1,63 @@
+body{
+	font:11pt Arial;
+	color: black;
+	line-height:20pt;
+
+	display: flex;/**/
+	align-items: center;/*y axis*/
+	text-align: center;/*text*/
+   	
+  	justify-content: center;/*x axis*/
+  	height: 650px;/*manually hover the y axis*/
+
+  	background: #d9c78f;
+}
+form{
+
+    	padding: 20pt 60pt;
+    	border: 1pt solid white;
+}
+input[type="text"] {
+	color: black;
+	margin: 5px;
+   	background-color: #d9c78f;
+   	border: 1px solid white;
+}
+input[type="date"] {
+	color: black;
+	margin: 5px;
+   	background-color: #d9c78f;
+   	border: 1px solid white;
+
+}
+input[type="tel"] {
+	color: black;
+   	margin: 5px;
+   	background-color: #d9c78f;
+   	border: 1px solid white;
+}
+button[type="submit"]{
+	font:12pt Arial;
+	color: black;
+   	margin: 5px;
+   	background-color: #d9c78f;
+   	border: 1px solid white;
+   	padding: 2pt 20pt;
+    cursor: pointer;
+}
+button[type="reset"]{
+  font:12pt Arial;
+  color: black;
+    margin: 5px;
+    background-color: #d9c78f;
+    border: 1px solid white;
+    padding: 2pt 20pt;
+    cursor: pointer;
+} 
+select{
+	color: black;
+   	margin: 5px;
+   	background-color: #d9c78f;
+   	border: 1px solid white;
+    cursor: pointer;	
+}
